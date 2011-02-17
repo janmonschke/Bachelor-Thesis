@@ -1,0 +1,37 @@
+###Titles
+- Single Page Web Apps
+- Single Page Web Apps demonstrated at the example of web-based designer portfolio platform
+
+###Outline
+- Introduction
+  - Standard web server scheme
+  - Changes caused by AJAX
+  - Single Page Web apps
+- Components
+  - Server (mainly to return json)
+  - Client (fetching data and presenting them)
+- Concepts
+  - internationalization on the client side
+  - all the views on the client
+  - Where to place business logic?
+    - Models on the server VS
+    - Models only on client
+    - security issues
+      - admin-mode-hack
+      - csrf-attacks
+      - when is a user signed in? and who should handle that? (:is_editable field ftw!)
+      - javascript debugging tools are hackers best friends
+- Pitfalls
+  - no auto-completion in forms
+  - state-problem (e.g. salon-breadcrumb-navigation)
+  - hashbangs and search engines
+  - users that have javascript disabled
+- Implementation (salon)
+  - idea (original salon)
+  - tools (backbone, jquery, self-written tools -> form_helper, dnd )
+  - structure
+  - data-flow
+- Conclusion
+  - Pros
+  - Cons
+  - Quo vadis?
