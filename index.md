@@ -24,8 +24,15 @@
 - Pitfalls
   - no auto-completion in forms
   - state-problem (e.g. salon-breadcrumb-navigation)
+  - state change problem
   - hashbangs and search engines
+  - hashbangs and tracking sites like google analytics (compare tracking pixels vs. js clients (analytics))
+  - hashbangs and advertising plugins
   - users that have javascript disabled
+- Benefits
+  - no complete reload 
+  - fewer data transfer
+  - ability to do animations between page changes
 - Implementation (salon)
   - idea (original salon)
   - tools (backbone, jquery, self-written tools -> form_helper, dnd )
