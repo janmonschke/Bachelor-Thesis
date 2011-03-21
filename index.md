@@ -1,7 +1,3 @@
-###Titles
-- Single Page Web Apps
-- Single Page Web Apps demonstrated at the example of web-based designer portfolio platform
-
 ###Outline
 - Introduction
   - Standard web server scheme
@@ -29,15 +25,20 @@
   - hashbangs and tracking sites like google analytics (compare tracking pixels vs. js clients (analytics))
   - hashbangs and advertising plugins
   - users that have javascript disabled
+  - memory consumption? xstats.js - https://github.com/jdalton/xstats.js
+  - caching!!!
 - Benefits
   - no complete reload 
   - fewer data transfer
   - ability to do animations between page changes
+  - server spends less time to render stuff
+    - comparison of request pipelines (traditional vs single page)
 - Implementation (salon)
   - idea (original salon)
   - tools (backbone, jquery, self-written tools -> form_helper, dnd )
   - structure
   - data-flow
+  - learnings
 - Conclusion
   - Pros
   - Cons
