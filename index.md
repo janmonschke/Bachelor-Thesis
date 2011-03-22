@@ -39,6 +39,7 @@
   - structure
   - data-flow
   - learnings
+  - quo vadis? (custom css, socializing, more assets)
 - Conclusion
   - Pros
   - Cons
