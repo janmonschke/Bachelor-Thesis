@@ -33,8 +33,7 @@
   - Pitfalls
     - (...)
   - Conclusion
-    
-    DAHM SCHREIBEN!!!
+- Evaluation / Overall conclusion    
 
 ###Outline
 - Introduction
