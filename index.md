@@ -29,9 +29,15 @@
   - Intro (why I used this approach for Salon)
     - comparison with normal website request model
   - Benefits
-    - (...)
+    - Speed / Efficiency
+    - User Experience
+      - Transitions
+      - Sound
+    - Same Language FE/BE
   - Pitfalls
-    - (...)
+    - SEO
+    - New Tools needed
+    - Sensitive data / Exposed Business Logic
   - Conclusion
 - Evaluation / Overall conclusion    
 

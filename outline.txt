@@ -1,0 +1,42 @@
+### Outline
+
+- Abstract
+- TOC
+- Introduction
+  - History of Salon
+  - Short overview about what Salon is
+- Salon implementation
+  - Technology used
+  - Features 
+    - Users
+    - Navigation
+    - Menu
+    - Index Page
+    - User#show ()
+      - User#edit
+    - Page#show ()
+      - Page#edit ()
+    - Image#show
+      - Image#edit
+    - Page#Index
+    - Drag&Drop implementation
+    - Transitions
+    - Notification system
+    - (Layout generator)
+  - Competitor comparison
+  - Features to come / Quo vadis Salon?
+- Single Page Web Apps
+  - Intro
+    - comparison with normal website request model
+  - Benefits
+    - Speed / Efficiency
+    - User Experience
+      - Transitions
+      - Sound
+    - Same Language FE/BE
+  - Pitfalls
+    - SEO
+    - New Tools needed
+    - Sensitive data / Exposed Business Logic
+  - Conclusion
+- Evaluation / Overall conclusion
