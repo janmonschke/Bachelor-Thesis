@@ -39,7 +39,7 @@
     - New Tools needed
     - Sensitive data / Exposed Business Logic
   - Conclusion
-- Evaluation / Overall conclusion    
+- Evaluation / Overall conclusion
 
 ###Outline
 - Introduction

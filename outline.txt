@@ -19,6 +19,7 @@
     - Image#show
       - Image#edit
     - Page#Index
+    - Search
     - Drag&Drop implementation
     - Transitions
     - Notification system
@@ -28,6 +29,7 @@
 - Single Page Web Apps
   - Intro
     - comparison with normal website request model
+    - things that change in a development workflow
   - Benefits
     - Speed / Efficiency
     - User Experience
