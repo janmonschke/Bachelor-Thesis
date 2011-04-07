@@ -28,6 +28,7 @@
 - Single Page Web Apps
   - Intro (why I used this approach for Salon)
     - comparison with normal website request model
+  - Changes
   - Benefits
     - Speed / Efficiency
     - User Experience
