@@ -3,44 +3,44 @@
 - Abstract (What is the Thesis about)
 - TOC
 - Introduction
-  - History of Salon (idea from dlrock at HFG, idea of rewrite -- Do I need this chapter?)
+  - History of Salon (idea from dlrock at HFG, idea of rewrite -- Do I need this chapter?) |
   - Short overview about what Salon is (max 1 page)
 - Salon implementation
   - Technology used
   - Features (explain the features of salon, include screenshots)
     - Users (sign in process, what users can do)
-    - Navigation (breadcrumb style)
-    - Menu (changes on login status)
-    - Index Page
+    - Navigation (breadcrumb style) |
+    - Menu (changes on login status) |
+    - Index Page |
     - User#show ()
       - User#edit
     - Page#show ()
       - Page#edit ()
     - Image#show
       - Image#edit
-    - Page#Index
-    - Drag&Drop implementation
+    - Page#Index |
+    - Drag&Drop implementation |
     - Transitions
     - Notification system
     - (Layout generator - REALLY WANT THIS)
   - Competitor comparison (do I need this one)
   - Features to come / Quo vadis Salon?
 - Single Page Web Apps
-  - Intro (why I used this approach for Salon)
-    - comparison with normal website request model
-  - Changes
-  - Benefits
-    - Speed / Efficiency
-    - User Experience
-      - Transitions
-      - Sound
-    - Same Language FE/BE
-  - Pitfalls
-    - SEO
-    - New Tools needed
-    - Sensitive data / Exposed Business Logic
-  - Conclusion
-- Evaluation / Overall conclusion
+  - Intro (why I used this approach for Salon) |
+    - comparison with normal website request model |
+  - Changes |
+  - Benefits |
+    - Speed / Efficiency |
+    - User Experience |
+      - Transitions |
+      - Sound |
+    - Same Language FE/BE |
+  - Pitfalls |
+    - SEO |
+    - New Tools needed |
+    - Sensitive data / Exposed Business Logic |
+  - Conclusion |
+- Evaluation / Overall conclusion (another conclusion?)
 
 ###Outline
 - Introduction
