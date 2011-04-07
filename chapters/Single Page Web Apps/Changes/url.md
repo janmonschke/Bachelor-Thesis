@@ -1,0 +1,5 @@
+### URLS
+Since browsers automatically handle hyperlinks with a GET-request, the URLs in single page web apps look different to normal URLs. They make use of the #-symbol that originally was used as an anchor to an element with an ID in a HTML page. This is needed on pages like Wikipedia where you have long text articles on one page and you want to point the user to a specific paragraph. The browser viewport automatically jumps to the element with the given ID if there is one. [mention push state[1]]
+To prevent the get-request the client side router listens to changes in the URL, especially for changes on the part after the # and then triggers a handler for this url-partial. This also makes all URLs bookmarkable since the router will render the corresponding views to each url-partial no matter what page you’re coming from.
+
+A typical URL would look like this: http://mydomain.tld/#/username/page_slug.

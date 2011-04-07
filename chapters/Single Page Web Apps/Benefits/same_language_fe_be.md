@@ -1,0 +1,4 @@
+### SAME LANGUAGE IN FRONTEND AND BACKEND
+With SPWAs you get the chance to eventually use the same language in the frontend as you use in the backend: JavaScript.
+Server-side JavaScript has become very popular recently with the development of node.js, an event-driven server that allows you to write all your backend code in JavaScript. Its event-based programming paradigm, I/O operations won't block the server until they're finished, instead an event is fired when data is available, allows the server to handle way more concurrent request than other (blocking) server technologies. [add usage statistics for node]
+Dealing with the same language on both end-points means that you can share code to reduce code duplication and unwanted double-maintenance.
