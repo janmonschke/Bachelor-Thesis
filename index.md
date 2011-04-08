@@ -12,7 +12,7 @@
     - Navigation (breadcrumb style) |
     - Menu (changes on login status) |
     - Index Page |
-    - User#show ()
+    - User#show () 
       - User#edit
     - Page#show ()
       - Page#edit ()
