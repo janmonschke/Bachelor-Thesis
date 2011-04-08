@@ -1,6 +1,12 @@
 ### Pages
 
 ## Page overview
-At first sight the page overview looks similar to the user overview. The images can freely get dragged around and the title of each image is displayed when the image is hovered. Also the user is navigated to the image page when he clicks the image or one of the captions.
+At first sight the page overview looks similar to the user overview. The images can freely get dragged around and the title of each image is displayed when the image is hovered. Logged in users also have the ability to directly edit or delete images with the additional captions here. As in the user overview the user is navigated to the image page when he clicks the image or one of the captions on the image.
 Besides that, there are subtle changes to some of the images. They have special icons that should indicate that they don't link to the image page but to an external page (see Fig.YY e.g. http://google.com) or to an internal page, meaning another page overview of this user (e.g. test). (More on cross-references of images in Image#edit[])
-Also there is another icon directly underneath the icon that allows the user to quickly jump to edit form of this current page.
+Also there is another icon directly underneath the navigation that allows the user to quickly jump to edit form of this page.
+Another additional feature is the ability to directly upload pictures to the page by simply dragging picture files from the filesystem onto the page. A progress dialog will open up that shows the user how many files are left to get uploaded and the images will after that directly get added to the page so that the user can work with them on the page right away.
+
+## Page edit form
+On this page the user is able to edit several aspects of a page Like the title and the description. Changing the title of a page leads also to a new URL-slug for this page so that the url and the title of a page always correspond. Under the normal form there is a listing of all assets that are associated to this page. When hovering on of these images new controls to edit and delete the image fade in. Also another option fades in that lets the user set this image as the cover image. When this one gets clicked also the image above automatically changes.
+The user is furthermore able to add new images on this page directly by dragging them somewhere onto the page or by opening up the file dialog with the "Add asset" button. The currently uploaded images will then automatically appear in the asset list.
+Other than on the overview pages the user here has to manually save changes with the buttons that are placed directly under the navigation. There also is a button to cancel the edit form that will remove all changes the user has made and will redirect the user to the page. The third button deletes the page.
