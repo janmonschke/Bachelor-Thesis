@@ -11,4 +11,4 @@ When the current user is logged in there will also be additional controls over e
 
 Furthermore the user is not only able to drag each image around but also the whole page which allows to choose a special "starting" point on the canvas that the visitor sees when he first comes to the page. To drag the whole page the user simply needs to drag the background and all other images will be moved accordingly.
 
-## s
+## Registration process, first visit
