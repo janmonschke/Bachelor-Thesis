@@ -16,7 +16,7 @@
       - User#edit 
     - Page#show () |
       - Page#edit () |
-    - Image#show
+    - Image#show |
       - Image#edit |
     - Page#Index |
     - Drag&Drop implementation |
