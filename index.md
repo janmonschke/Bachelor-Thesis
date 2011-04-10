@@ -14,10 +14,10 @@
     - Index Page |
     - User#show () |
       - User#edit 
-    - Page#show ()
-      - Page#edit ()
+    - Page#show () |
+      - Page#edit () |
     - Image#show
-      - Image#edit
+      - Image#edit |
     - Page#Index |
     - Drag&Drop implementation |
     - Transitions
