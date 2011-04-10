@@ -20,8 +20,6 @@
       - Image#edit |
     - Page#Index |
     - Drag&Drop implementation |
-    - Transitions
-    - Notification system
     - (Layout generator - REALLY WANT THIS)
   - Competitor comparison (do I need this one)
   - Features to come / Quo vadis Salon?
@@ -29,6 +27,12 @@
   - Intro (why I used this approach for Salon) |
     - comparison with normal website request model |
   - Changes |
+    - authentication |
+    - i18n | <- may remove this one
+    - notifications |
+    - urls |
+    - rendering |
+    - FORMHELPER
   - Benefits |
     - Speed / Efficiency |
     - User Experience |
