@@ -43,7 +43,7 @@
     - SEO |
     - New Tools needed |
     - Sensitive data / Exposed Business Logic |
-    - Accessibility
+    - Accessibility |
   - Conclusion |
 - Evaluation / Overall conclusion (another conclusion?)
 
