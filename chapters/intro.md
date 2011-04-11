@@ -1,11 +1,8 @@
 ## Salon intro
 
-### The idea
-The basic idea behind Salon was developed by Sebastian Deutsch and Stefan Landrock when they were given the chance to take over university curses at the HFG in Offenbach. Together with the students they built a working prototype of it so they could use it for their curses and especially for their presentations. When other universities heard about Salon they asked Stefan and Sebastian if they could host a system for their students too. But Salon was not built to be deployable for other universities and they asked me if I could re-build and to [erweitern] Salon to have a clean code-base and a portable system so that it could easily be deployed and changed [anderes wort für verändert] for other universities.
-
 ### What is Salon? Overview
-Salon basically is a web-based system that allows registered users to create Pages and to upload Images onto these pages. On a first sight this functionality may not look very innovative since there are millions of services on the internet that allow the user to upload images. The main improvement that Salon offers that other services don't offer is that registered users are able to fully control how the images are being presented to visitors. All images are placed on a canvas and can freely be dragged around by the user. Also the canvas itself can be dragged. This feature gives the presenter another way to express the meaning of the images.
+Salon is a web-based system that allows its users to create pages and to upload images onto these pages. On a first sight this functionality may not look very innovative since there are millions of services on the Internet that allow the user to upload images. But the main improvement that Salon offers that other services don't offer is that registered users are able to fully control the way their images are presented to the visitors of their pages. All images are placed on a canvas and can freely be dragged around by the user to create innovative and unique arrangements. Also the canvas itself can be moved to focus a certain point of a page. Another feature is that images can link to other pages so that users can create associations between pages or even associations between users.
 
-###
-
-###
+### The idea
+Dipl. Inf. Sebastian Deutsch and Dipl. Des. Stefan Landrock developed the basic idea behind Salon when they were given the chance to take over university courses at HFG in Offenbach. Together with their students they built a working prototype of their idea so they could use it for their courses and especially for their presentations. When other universities heard about Salon they were asked if they could host a system for their students too. But Salon was not built to be deployable for other universities and so they had the idea to rewrite and to extend the features of Salon so that it could easily be set up for other universities. 
+The purpose of this bachelor thesis is to completely rewrite Salon with a clean underlying code structure and to evaluate its #naaaaarf

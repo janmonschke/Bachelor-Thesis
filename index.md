@@ -4,7 +4,7 @@
 - TOC
 - Introduction
   - History of Salon (idea from dlrock at HFG, idea of rewrite -- Do I need this chapter?) |
-  - Short overview about what Salon is (max 1 page)
+  - Short overview about what Salon is |
 - Salon implementation
   - Technology used
   - Features (explain the features of salon, include screenshots)
