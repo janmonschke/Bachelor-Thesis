@@ -5,4 +5,4 @@ Salon is a web-based system that allows its users to create pages and to upload 
 
 ### The idea
 Dipl. Inf. Sebastian Deutsch and Dipl. Des. Stefan Landrock developed the basic idea behind Salon when they were given the chance to take over university courses at HFG in Offenbach. Together with their students they built a working prototype of their idea so they could use it for their courses and especially for their presentations. When other universities heard about Salon they were asked if they could host a system for their students too. But Salon was not built to be deployable for other universities and so they had the idea to rewrite and to extend the features of Salon so that it could easily be set up for other universities. 
-The purpose of this bachelor thesis is to completely rewrite Salon with a clean underlying code structure and to evaluate its #naaaaarf
+The purpose of this bachelor thesis is to completely rewrite Salon with a clean underlying code structure and with the use of newest web technologies.

@@ -3,11 +3,13 @@
 - Abstract (What is the Thesis about)
 - TOC
 - Introduction
-  - History of Salon (idea from dlrock at HFG, idea of rewrite -- Do I need this chapter?) |
-  - Short overview about what Salon is |
+  - intro.md |
+    - what is it? |
+    - the idea / purpose |
 - Salon implementation
-  - Technology used
-  - Features (explain the features of salon, include screenshots)
+  - Technology overview |
+  - Model Structure
+  - Features
     - Users (sign in process, what users can do)
     - Navigation (breadcrumb style) |
     - Menu (changes on login status) |
@@ -18,11 +20,12 @@
     - Image#show |
       - Image#edit |
     - Page#Index |
+    - Search
     - Drag&Drop implementation |
     - (Layout generator - REALLY WANT THIS)
   - Competitor comparison (do I need this one)
   - Features to come / Quo vadis Salon? |
-  - Conclusion / Evaluation |
+  - Conclusion / Evaluation
 - Single Page Web Apps
   - Intro (why I used this approach for Salon) |
     - comparison with normal website request model |
