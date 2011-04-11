@@ -13,7 +13,6 @@
     - Menu (changes on login status) |
     - Index Page |
     - User#show () |
-      - User#edit 
     - Page#show () |
       - Page#edit () |
     - Image#show |
@@ -23,7 +22,7 @@
     - (Layout generator - REALLY WANT THIS)
   - Competitor comparison (do I need this one)
   - Features to come / Quo vadis Salon? |
-  - Conclusion / Evaluation
+  - Conclusion / Evaluation |
 - Single Page Web Apps
   - Intro (why I used this approach for Salon) |
     - comparison with normal website request model |
@@ -33,7 +32,7 @@
     - notifications |
     - urls |
     - rendering |
-    - FORMHELPER
+    - forms |
   - Benefits |
     - Speed / Efficiency |
     - User Experience |
@@ -44,6 +43,7 @@
     - SEO |
     - New Tools needed |
     - Sensitive data / Exposed Business Logic |
+    - Accessibility
   - Conclusion |
 - Evaluation / Overall conclusion (another conclusion?)
 
