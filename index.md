@@ -8,7 +8,7 @@
     - the idea / purpose |
 - Salon implementation
   - Technology overview |
-  - Model Structure
+  - Model Structure |
   - Drag&Drop implementation |
   - Navigation (breadcrumb style) |
   - Menu (changes on login status) |
