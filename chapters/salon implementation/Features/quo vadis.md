@@ -16,3 +16,7 @@ An advantage that comes with this animation is that users are able to see where 
   
 ## Zoom
 Pages with a lot of images tend to look cluttered and then images often are dragged out of the visible area of the canvas. Sometimes this leads to accidentally hiding certain images and the users will not notice that there are more images on the page. A zoom feature that lets users zoom in and out of overview pages would help to give users an overview of pages with a lot of content and could also be another element for users to experiment with (e.g. by hiding images that can only be seen when a user completely zooms out of the page.)
+
+## layout generator
+
+## search for titles
