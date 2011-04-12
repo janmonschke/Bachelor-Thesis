@@ -1,7 +1,7 @@
 ## REQUEST FLOW COMPARISON
 
 ### TRADITIONAL
-A HTTP request is matched to the corresponding controller by a router. This controller then triggers the Model-layer to retrieve the necessary data for the request from the underlying database. When the data has been successfully fetched, the controller triggers the View-layer to render the data into the requested View. This data is then being transfered to the browser of the user and the current DOM is replaced with the transefered HTML page.
+A HTTP request is matched to the corresponding controller by a router. This controller then triggers the Model-layer to retrieve the necessary data for the request from the underlying database. When the data has been successfully fetched, the controller triggers the View-layer to render the data into the requested View. This data is then being transferred to the browser of the user and the current DOM is replaced with the transferred HTML page.
 
 ### SINGLE PAGE
 The single-page request-flow is the same as the traditional request-flow until it comes to the rendering of views. Instead of letting the server render a complete new layout and transfer it to the client, the fetched data is serialized into a transport format (JSON, XML...) and the client takes care of rendering the part of the DOM that has changed.

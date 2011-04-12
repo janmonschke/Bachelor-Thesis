@@ -5,7 +5,7 @@
 - Introduction
   - intro.md |
     - what is it? |
-    - the idea / purpose |
+    - the idea / purpose 
 - Salon implementation
   - Technology overview |
   - Model Structure |
@@ -22,18 +22,18 @@
     - Page#Index |
     - Search |
   - Drag&Drop implementation |
-  - Competitor comparison (do I need this one)
-  - Features to come / Quo vadis Salon? |
+  - [Competitor comparison (do I need this one)]
+  - Features to come / Quo vadis Salon? 
   - Conclusion / Evaluation
 - Single Page Web Apps
   - Intro (why I used this approach for Salon) |
     - comparison with normal website request model |
-  - Changes |
+  - Changes / differences |
+    - urls |
+    - rendering |
     - authentication |
     - i18n | <- may remove this one
     - notifications |
-    - urls |
-    - rendering |
     - forms |
   - Benefits |
     - Speed / Efficiency |
@@ -41,7 +41,7 @@
       - Transitions |
       - Sound |
     - Same Language FE/BE |
-  - Pitfalls |
+  - Problems / Pitfalls |
     - SEO |
     - New Tools needed |
     - Sensitive data / Exposed Business Logic |
