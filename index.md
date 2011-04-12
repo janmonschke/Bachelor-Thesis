@@ -9,12 +9,11 @@
 - Salon implementation
   - Technology overview |
   - Model Structure |
-  - Drag&Drop implementation |
   - Navigation (breadcrumb style) |
   - Menu (changes on login status) |
   - Pages
-    - Users (sign in process, what users can do)
     - Index Page |
+    - Registration
     - User#show () |
     - Page#show () |
       - Page#edit () |
@@ -22,6 +21,7 @@
       - Image#edit |
     - Page#Index |
     - Search |
+  - Drag&Drop implementation |
   - Competitor comparison (do I need this one)
   - Features to come / Quo vadis Salon? |
   - Conclusion / Evaluation

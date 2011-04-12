@@ -1,8 +1,8 @@
 ### Images
 
 ## Image show
-On this page the current image is shown in its original size as the user uploaded it. The image is centered horizontally and vertically so that the image's center lies on top of the page's center. Like on the other pages, the image here can also get dragged around which is handy for images that are bigger than the browser screen so that users can see the rest of each image too by dragging it to the middle. The current position of an image is not saved to the server because the main focus on this page should not lay on a specific arrangement but on the image itself.
-By pressing the right- or left key, the user can navigate through the rest of the images of the current page to quickly get an overview over all images in this page.
+On this page the current image is shown in the original size as the user uploaded it. The image is centered horizontally and vertically so that the images' center lies on top of the pages' center. Like on the other pages, the image here can also get dragged around which is handy for images that are bigger than the browser screen so users can see the rest of each image by dragging it around. The position of an image is not saved to the server because the main focus on this page should not lie on a specific arrangement but on the image itself.
+By pressing the right- or left key, the user can navigate through the rest of the images of the current page to quickly get an overview over all images.
 
 ## Image edit
 Like in the page edit form the image edit form first shows the image to make it clear to the user which one of the images he is currently editing. There are basic input fields to change the title (which will also change the URL), the description and there are fields to add Copyright and source information to the image that are important if the user adds an image that has been taken from another website.
