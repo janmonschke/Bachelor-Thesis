@@ -17,6 +17,8 @@ An advantage that comes with this animation is that users are able to see where 
 ## Zoom
 Pages with a lot of images tend to look cluttered and then images are often dragged out of the visible area of the canvas. Sometimes this leads to several images get hidden by accident so that users will not notice that there are more images on the page. A zoom feature that lets users zoom in and out of overview pages would help to give users an overview of pages with a lot of content and could also be another element for users to experiment with (e.g. by hiding images that can only be seen when a user completely zooms out of the page).
 
-## layout generator
+## Grid Generator
+Sometimes it is not necessary to align images on a page in very creative way when a user only wants to upload the images and show them to someone else. Currently to align them properly in a grid a user has to manually drag the images around. The more images there are, the more time is needed to create a nice grid and very often images are not aligned 100% correct because it is hard to align everything manually. To allow the user to simply create grids that are perfectly aligned, a grid generator component could get added to Salon that is visible on overview pages. A user would only have to specify the amount of columns and the padding and the generator would then align the images automatically.
 
 ## search for titles
+The search currently only works for tags but this is a functionality that is likely to get extended in the future to also support the search in page titles and image titles. This makes it possible to find pages directly and not just by searching for tags that images in a specific page may have been tagged with. Students could then name their pages according to the exercises of Profs so that Profs can find these pages easier. This also leads to a needed restructure of the search result page that then should also show resulting pages.
