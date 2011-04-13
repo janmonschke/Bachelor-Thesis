@@ -1,1 +1,4 @@
-### Registration
+### Registration and Account
+In Salon users have to sign-up with an Username, an E-Mail address and a password. To complete a registration the user is sent an e-mail with a confirmation link. This step is needed to confirm that a user registered with a valid address. After clicking the link in the mail the system redirects the user to an empty page called "untitled page" and a message is shown that the account now has successfully been confirmed. Since this is the first time the user uses Salon, a message on the page tells him that he now is able to add images to the page by dragging them onto the window. Also a link to the about page is shown so that new users can get a quick overview on the features of Salon.
+
+The edit account details, like the password or the e-mail address, users can use the "Account" page (link in the menu). This page also allows the user to delete the account.
