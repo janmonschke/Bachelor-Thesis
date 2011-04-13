@@ -13,7 +13,7 @@
   - Menu (changes on login status) |
   - Pages
     - Index Page |
-    - Registration
+    - Registration |
     - User#show () |
     - Page#show () |
       - Page#edit () |
@@ -46,8 +46,7 @@
     - New Tools needed |
     - Sensitive data / Exposed Business Logic |
     - Accessibility |
-  - Conclusion |
-- Evaluation / Overall conclusion (another conclusion?)
+  - Conclusion 
 
 ###Outline
 - Introduction
