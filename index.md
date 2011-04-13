@@ -23,7 +23,7 @@
     - Search |
   - Drag&Drop implementation |
   - [Competitor comparison (do I need this one)]
-  - Features to come / Quo vadis Salon? 
+  - Features to come / Quo vadis Salon? |
   - Conclusion / Evaluation
 - Single Page Web Apps
   - Intro (why I used this approach for Salon) |
