@@ -1,7 +1,8 @@
 ## REQUEST FLOW COMPARISON
 
 ### TRADITIONAL
-A HTTP request is matched to the corresponding controller by a router. This controller then triggers the Model-layer to retrieve the necessary data for the request from the underlying database. When the data has been successfully fetched, the controller triggers the View-layer to render the data into the requested View. This data is then being transferred to the browser of the user and the current DOM is replaced with the transferred HTML page.
+When a new page is requested, the user's browser sends a HTTP request to the server. This request is then matched to the corresponding controller by a router. The controller then triggers the model-layer to retrieve the necessary data for the request from the underlying database. When the data has been successfully fetched, the controller triggers the view-layer to render the data into the requested view. Views may be constructed from several sub-views that are rendered into one layout file. The rendered layout is then transferred back to the browser.
+The browser completely removes the old DOM and re-renders a new DOM from the layout that just has been transferred. This leads to the typical blank screen in the browser when a new page is being requested.
 
 ### SINGLE PAGE
 The single-page request-flow is the same as the traditional request-flow until it comes to the rendering of views. Instead of letting the server render a complete new layout and transfer it to the client, the fetched data is serialized into a transport format (JSON, XML...) and the client takes care of rendering the part of the DOM that has changed.
