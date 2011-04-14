@@ -23,14 +23,13 @@
     - Search |
   - Drag&Drop implementation |
   - Visual Design |
-  - [Competitor comparison (do I need this one)]
   - Features to come / Quo vadis Salon? |
   - Conclusion / Evaluation [half way done]
 - Single Page Web Apps
   - Intro (why I used this approach for Salon) |
     - comparison with normal website request model |
   - Changes / differences |
-    - urls |
+    - urls [mention push state]
     - rendering |
     - authentication |
     - i18n | <- may remove this one
