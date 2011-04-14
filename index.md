@@ -9,7 +9,6 @@
 - Salon implementation
   - Technology overview |
   - Model Structure |
-  - Visual Design 
   - Navigation (breadcrumb style) |
   - Menu (changes on login status) |
   - Pages
@@ -23,9 +22,10 @@
     - Page#Index |
     - Search |
   - Drag&Drop implementation |
+  - Visual Design |
   - [Competitor comparison (do I need this one)]
   - Features to come / Quo vadis Salon? |
-  - Conclusion / Evaluation
+  - Conclusion / Evaluation [half way done]
 - Single Page Web Apps
   - Intro (why I used this approach for Salon) |
     - comparison with normal website request model |
@@ -47,7 +47,7 @@
     - New Tools needed |
     - Sensitive data / Exposed Business Logic |
     - Accessibility |
-  - Conclusion 
+  - Conclusion |
 
 ###Outline
 - Introduction
