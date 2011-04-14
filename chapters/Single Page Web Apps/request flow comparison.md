@@ -1,10 +1,10 @@
-## REQUEST FLOW COMPARISON
+### REQUEST FLOW COMPARISON
 
-### TRADITIONAL
+## TRADITIONAL
 When a new page is requested, the user's browser sends a HTTP request to the server. This request is then matched to the corresponding controller by a router. The controller then triggers the model-layer to retrieve the necessary data for the request from the underlying database. When the data has been successfully fetched, the controller triggers the view-layer to render the data into the requested view. Views may be constructed from several sub-views that are rendered into one layout file. The rendered layout is then transferred back to the browser.
 The browser completely removes the old DOM and re-renders a new DOM from the layout that just has been transferred. This leads to the typical blank screen in the browser when a new page is being requested.
 
-### SINGLE PAGE
-The single-page request-flow is the same as the traditional request-flow until it comes to the rendering of views. Instead of letting the server render a complete new layout and transfer it to the client, the fetched data is serialized into a transport format (JSON, XML...) and the client takes care of rendering the part of the DOM that has changed.
-The main differentiation between the two systems is the initial request to the server. In the traditional system you would generate a normal HTML layout and hyperlinks on that page would send GET requests to the server which then would cause a rerendering of the whole page.
-In single page web apps the initial request delivers the complete web app and not just a snapshot of it. When the app is initialized a fronted-router takes care of rendering the correct JavaScript view. All requests (e.g. links clicked) will then automatically be passed to the frontend-controller that connects JavaScript Models and JavaScript Views.
+## SINGLE PAGE
+The Single Page request-flow is initialized by a "#-change" of the current URL, rather than by a normal URL change (see chapter URL). This change triggers a client-side Router to call a certain Controller function that initializes an AJAX request instead of a synchronous HTTP request.
+Then the Single Page request-flow is the same as the traditional request-flow but the backend system won't render a HTML view from the data. Instead of letting the server render a complete new layout and transfer it to the client, the data gets serialized into a transport format (e.g. JSON or XML). The frontend framework takes care of rendering a view from the data. Now instead of replacing the whole DOM, the generated view replaces only a part of the page (e.g. the content panel). This prevents the screen from turning blank when the new content is being displayed.
+Another difference in the request flow is that in SPWAs the initial request (e.g. "www.mydomain.tld") delivers a complete web app, with all the application-logic in it, and not just a snapshot of it. When the initial page has been loaded, a fronted-router takes care of rendering the correct JavaScript views.
