@@ -1,14 +1,15 @@
 ### Outline
 
 - Abstract (What is the Thesis about)
-- TOC
+- TOC |
 - Introduction
   - intro.md |
     - what is it? |
-    - the idea / purpose 
+    - the idea |
 - Salon implementation
   - Technology overview |
   - Model Structure |
+  - Visual Design 
   - Navigation (breadcrumb style) |
   - Menu (changes on login status) |
   - Pages
