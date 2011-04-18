@@ -1,4 +1,4 @@
 ### INDEX PAGE
 The index page has, as well as other elements in Salon, two states that depend on the login state of the user. If the user is not logged in the index page displays a text that invites the user to register an account at Salon and a link to the about page so that new users quickly get an idea about what Salon is and how they can use it.
 If the user is logged in, the text on the index page welcomes the user and a list of recently created and edited pages is shown at the bottom of the page.
-The index page does not have much functionality since the discovery of pages and images is realized with the search field that is located in the navigation (more on search here [x.x]).
+The index page does not have much functionality since the discovery of pages and images is realized with the search field that is located in the navigation (see I 3.3.9 "Search").
