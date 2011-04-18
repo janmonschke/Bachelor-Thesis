@@ -1,7 +1,7 @@
 ### REQUEST FLOW COMPARISON
 
 ## TRADITIONAL
-When a new page is requested, the user's browser sends a HTTP request to the server. This request is then matched to the corresponding controller by a router. The controller then triggers the model-layer to retrieve the necessary data for the request from the underlying database. When the data has been successfully fetched, the controller triggers the view-layer to render the data into the requested view. Views may be constructed from several sub-views that are rendered into one layout file. The rendered layout is then transferred back to the browser.
+When a new page is requested, the user's browser sends an HTTP request to the server. This request is then matched to the corresponding controller by a router. The controller then triggers the model-layer to retrieve the necessary data for the request from the underlying database. When the data has been successfully fetched, the controller triggers the view-layer to render the data into the requested view. Views may be constructed from several sub-views that are rendered into one layout file. The rendered layout is then transferred back to the browser.
 The browser completely removes the old DOM and re-renders a new DOM from the layout that just has been transferred. This leads to the typical blank screen in the browser when a new page is being requested.
 
 ## SINGLE PAGE
