@@ -3,11 +3,11 @@ The development of Salon should not stop after this thesis and there are various
 
 ## Remix-me
 The "Remix-me" feature would allow a user to clone an existing page from another user to then edit it as if it was one of his pages. These remixes would then get listed on the original page and a caption would get added to pages that are remixes so that the original authors would always be mentioned. This feature should be an optional feature for pages and should need to get activated in the page edit form for each page to preserve copyrights of the original content.
-A scenario could be that Profs create pages to specific topics and then make an exercise in class that students should remix the current page and add their own ideas to the page. This raises the question whether it should be allowed to the remixer to delete images from the original author.
-Overall this feature could boost interaction between users and could be an element that is fun to use.
+A scenario could be that Professors create pages to specific topics and then make an exercise in class that students should remix the current page and add their own ideas to the page. This raises the question how ownership shall be regulated within the remix-system. Should remixers be allowed to delete images from the original page in their remix or should they only be allowed to add images.
+Overall this feature could easily boost interaction between users and the virality of the project.
 
 ## More Assets
-Currently there is only one asset type that can get added to pages: the image. But the backend design allows to easily add other sorts of assets for example texts or sounds. Especially the combination of text assets and image assets could lead to a lot of interesting pages. Texts could link to other pages or they could serve as a description for images.
+Currently there is only one asset type that can get added to pages: the image. But the backend architecture allows to easily add other sorts of assets for example texts or sounds. Especially the combination of text assets and image assets could lead to a lot of interesting pages. Texts could link to other pages or they could serve as a description for images.
 
 ## Animations
 To improve the user experience, more animations could get added to Salon. For example when navigation through the images of a page with the keys, the images could slide-in from the side instead of just suddenly appearing after a key has been pressed.
