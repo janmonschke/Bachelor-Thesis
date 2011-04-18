@@ -2,7 +2,7 @@
 
 ## Page overview
 At first sight the page overview looks similar to the user overview. The images can freely get dragged around and the title of each image is displayed when the image is hovered. Logged in users also have the ability to directly edit or delete images with the additional captions here. As in the user overview the user is navigated to the image page when he clicks the image or one of the captions on the image.
-Besides that, there are subtle changes to some of the images. They have special icons that should indicate that they don't link to the image page but to an external page (see Fig.YY e.g. http://google.com) or to an another page of this user (e.g. test). (More on cross-references of images in Image#edit[])
+Besides that, there are subtle changes to some of the images. They have special icons that should indicate that they don't link to the image page but to an external page (see Fig.YY e.g. http://google.com) or to another page of this user (e.g. test). (More on cross-references of images in Image#edit[])
 Also there is another caption right underneath the navigation that allows the user to quickly jump to edit form of this page.
 Another additional feature is the ability to directly upload pictures to the page by simply dragging picture files from the file system onto the page. A progress dialog will open up that shows the user how many files are left to get uploaded and the images will after the upload directly get added to the page so that the user can work with them on the page right away.
 
