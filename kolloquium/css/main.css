@@ -233,3 +233,7 @@ ul.toc li.list_heading {
 ul.no_bullets li{
   list-style-type: none;
 }
+
+.centered {
+  text-align: center;
+}
