@@ -169,13 +169,11 @@ ol {
 }
 
 li, p{
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	text-align: left;
+	list-style-type: disc;
 }
 
-ul {
-  
-}
 
 a:not(.image) {
 	color: #1b6263;
@@ -222,11 +220,16 @@ p.tiny {
   font-size: 18pt;
 }
 
-li ul {
+ul.toc li {
   margin-left: 50px;
   list-style-type: circle;
 }
 
+ul.toc li.list_heading {
+  margin-left: 0;
+  list-style-type: none;
+}
 
-
-
+ul.no_bullets li{
+  list-style-type: none;
+}
