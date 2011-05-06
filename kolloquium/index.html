@@ -10,6 +10,7 @@
 		
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/main.css">
+		<script src="js/jquery.js"></script>
 	</head>
 	
 	<body>
@@ -56,6 +57,7 @@
 				<ul class="no_bullets">
 				  <li>I. Salon</li>
 				  <li>II. Single Page Web Apps</li>
+				  <li>III. Appendix</li>
 				</ul>
 			</section>
 			
@@ -102,7 +104,7 @@
 			<section>
 				<h3>I. Idea of Salon</h3>
 				<ul>
-				  <li>Introducing Salon: a portfolio platform for designers.</li>
+				  <li>Introducing: Salon, a portfolio platform for designers.</li>
 				  <li>Focus on interactivity and creativity.</li>
 				  <li>No static layouts: Everything is draggable / customizable</li>
 				  <li>Prototype developed at HFG Offenbach by Dipl-Inf. Deutsch and Dipl-Des. Landrock.</li>
@@ -111,42 +113,101 @@
 			
 			<section>
 				<h3>I. Idea of Salon</h3>
-        <p>ADD INDEX SCREENSHOT</p>
+        <p class="centered"><img class="screenshot" src="assets/images/salon_overview.png" /></p>
+        <p class="note">This is a note</p>
 			</section>
 			
 			<section>
 				<h3>I. The Platform: Components</h3>
-        <p>ADD DATA SCHEMA IMAGE and explain</p>
+        <p class="centered"><img class="screenshot" src="assets/images/modelstructure.png" /></p>
 			</section>
 			
 			<section>
 				<h3>I. The Platform: Users</h3>
-        <p>(...)</p>
+				<p class="centered"><img class="screenshot" src="assets/images/salon_overview.png" /></p>
+				<!-- onClick="$(this).slideUp('fast').next('ul').show('slow');" -->
+				<!-- onClick="$(this).hide('fast').prev('p').slideDown('slow');" -->
+			</section>
+			
+			<section>
+				<h3>I. The Platform: Users</h3>
+        <ul>
+          <li>Each page is shown with its cover image</li>
+          <li>Layout draggable</li>
+          <li>No disturbing extra information</li>
+          <li>Clear focus on the designer's work'</li>
+        </ul>
 			</section>
 			
 			<section>
 				<h3>I. The Platform: Pages</h3>
-        <p>(...)</p>
+        <p class="centered"><img class="screenshot" src="assets/images/page_overview.png" /></p>
+			</section>
+			
+			<section>
+				<h3>I. The Platform: Pages</h3>
+				<p class="centered todo">ADD ADMIN-VIEW OF THIS PAGE</p>
+        <p class="centered"><img class="screenshot" src="assets/images/page_overview.png" /></p>
+			</section>
+			
+			<section>
+				<h3>I. The Platform: Pages</h3>
+        <p class="centered"><img class="screenshot" src="assets/images/upload_images.png" /></p>
+			</section>
+			
+			<section>
+				<h3>I. The Platform: Pages</h3>
+        <ul>
+          <li>Pages can get hidden -> don't appear in overview but are reachable via the URL</li>
+          <li>MORE</li>
+        </ul>
 			</section>
 			
 			<section>
 				<h3>I. The Platform: Images</h3>
-        <p>(...)</p>
+        <p class="centered"><img class="screenshot" src="assets/images/image_overview.png" /></p>
+			</section>
+			
+			<section>
+				<h3>I. The Platform: Images</h3>
+        <ul>
+          <li>Images can link to three different targets: to its detail-page, to a user's page and to external URLs</li>
+          <li>This allows to connect pages, users and gives users another way to create creative pages</li>
+          <li>Each of the link targets has its own icon</li>
+        </ul>
+			</section>
+			
+			<section>
+				<h3>I. The Platform: Images</h3>
+        <ul>
+          <li>Images can have tags which makes them searchable</li>
+          <li>Animated gifs are also supported (<a href="http://salon.9elements.com/#!/Lrock/gif-horreur" target="_blank">extensive usage</a>)</li>
+          <li>Each image is available in four different sizes</li>
+        </ul>
+			</section>
+			
+			<section>
+				<h3>I. The Platform: Images</h3>
+				<p class="centered todo">ADD ADMIN-FORM OF THIS PAGE</p>
+        <p class="centered"><img class="screenshot" src="assets/images/image_overview.png" /></p>
 			</section>
 			
 			<section>
 				<h3>I. The Platform: Menu / Navigation</h3>
-        <p>(...)</p>
+        <ul>
+          <li>Bread-crumb navigation with focus on the user</li>
+          <li>Menu expands on hover (does not get in the way)</li>
+          <li>Always on top</li>
+        </ul>
 			</section>
 			
 			<section>
 				<h3>I. The Platform: D&amp;D</h3>
-        <p>(...)</p>
-			</section>
-			
-			<section>
-				<h3>I. The Platform: Visual Design</h3>
-        <p>(...)</p>
+        <ul>
+          <li>Self-implemented</li>
+          <li>Multi-touch-, multi-browser and mobile-friendly</li>
+          <li>Small footprint</li>
+        </ul>
 			</section>
 			
 			<section>
@@ -157,12 +218,22 @@
 			
 			<section>
 				<h3>I. Quo vadis Salon?</h3>
-        <p>(...)</p>
+        <ul>
+          <li>More assets (video, text, music...)</li>
+          <li>More animations</li>
+          <li>Remix-me feature</li>
+          <li>Custom CSS and / or JavaScript</li>
+        </ul>
 			</section>
 			
 			<section>
 				<h3>I. Evaluation</h3>
-        <p>(...)</p>
+        <ul>
+          <li>Fun to use</li>
+          <li>Maximum freedom for users</li>
+          <li>Clean architecture</li>
+          <li>Customizable</li>
+        </ul>
 			</section>
 			
 			<section>
@@ -227,6 +298,25 @@
 				<h3>II. Conclusion</h3>
 				<ul>
 				  <li></li>
+				</ul>
+			</section>
+			
+			<section>
+				<h1>Thx for your attention!</h1>
+        <h3 class="inverted">Any questions?</h3>
+        <br />
+        <br />
+        <p class="tiny">The thesis is hosted on Github: <a href="https://github.com/janmonschke/Bachelor-Thesis">https://github.com/janmonschke/Bachelor-Thesis</a></p>
+			</section>
+			
+			<section>
+				<h3>III. Appendix : Technology</h3>
+				<ul>
+				  <li>Ruby on Rails</li>
+				  <li>MongoDB with Mongoid</li>
+				  <li>Backbone.js</li>
+				  <li>Brunch</li>
+				  <li>CoffeeScript</li>
 				</ul>
 			</section>
 			

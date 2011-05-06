@@ -237,3 +237,20 @@ ul.no_bullets li{
 .centered {
   text-align: center;
 }
+
+p.todo {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+img.screenshot {
+  width: 100%;
+}
+
+p.note {
+  display:none;
+}
+
+.hidden {
+  display : none;
+}
