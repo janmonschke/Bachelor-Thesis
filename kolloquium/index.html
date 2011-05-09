@@ -290,27 +290,30 @@
 				<ul>
 				  <li>No complete reload means that media can be played in the background while surfing</li>
 				  <li>Good for music-centric pages</li>
-          <li id="start_sound">Jump to warp</li>
+          
 				</ul>
-				<audio id="the_audio" preload="auto" src="assets/sound/voyager_theme_song.mp3"></audio>
-				<script>
-				  $('#start_sound').click(function(){
-				    $('#the_audio').get(0).play();
-				  });
-				</script>
+				<audio id="the_audio" preload="auto" src="assets/sound/brad_sucks_fill_in.mp3"></audio>
 			</section>
 			
 			<section>
-				<h3>II. Benefits: Media</h3>
+				<h3>II. Benefits</h3>
 				<br />
+				<p class="centered">These slides are a Single Page Web App as well:</p>
+				<p class="centered tiny"><a href="#/31">A normal link</a></p>
 				<br />
-        <h3 id="stop_sound" class="inverted">Stop</h3>
+				<h4 id="start_sound">Start</h4>
+        <h4 id="stop_sound">Stop</h4>
         <script>
+          $('#start_sound').click(function(){
+  			    $('#the_audio').get(0).play();
+  			  });
 				  $('#stop_sound').click(function(){
 				    $('#the_audio').get(0).pause()
 				  });
 				</script>
 			</section>
+			
+			
 			
 			<section>
 				<h3>II. Problems: SEO</h3>

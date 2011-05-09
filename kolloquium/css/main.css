@@ -216,6 +216,10 @@ img {
    * SPECIAL ELEMENTS
    *********************************************/
 
+section{
+  padding-top: 50px;
+}
+
 p.tiny {
   font-size: 18pt;
 }
