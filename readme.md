@@ -1,3 +1,5 @@
+The project is located at: http://salon.io
+
 Most recent texts in `chapters/` directory.
 Sequence of chapters in `index.md`.
 
